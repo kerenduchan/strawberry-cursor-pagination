@@ -15,7 +15,6 @@ Refer to the Strawberry Pagination documentation [here](https://strawberry.rocks
 
 ## Install
 ```
-cd strawberry-pagination
 python -m venv virtualenv
 source virtualenv/bin/activate
 pip install 'strawberry-graphql[debug-server]'
