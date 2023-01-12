@@ -1,13 +1,15 @@
 # strawberry-pagination
 
 # About
-Use this project as a base for implementing a strawberry GraphQL server with pagination. 
+Use this project as a base for implementing a Strawberry GraphQL server with pagination. 
 
-See https://strawberry.rocks/docs/guides/pagination#pagination for more info.
+Read [this post](https://medium.com/@keren.duchan/set-up-a-strawberry-graphql-server-with-pagination-python-711c2f4652b2) on Medium for a detailed tutorial about this code.
+
+Refer to the Strawberry Pagination documentation [here](https://strawberry.rocks/docs/guides/pagination#pagination)
 
 This is a small demo python project containing:
 - A tiny in-memory mock DB with sample entries and pagination support (limit+cursor)
-- An implementation of a strawberry GraphQL server with pagination for this mock DB
+- An implementation of a Strawberry GraphQL server with pagination for this mock DB
 
 # Quickstart
 
@@ -19,7 +21,7 @@ source virtualenv/bin/activate
 pip install 'strawberry-graphql[debug-server]'
 ```
 
-## Run the strawberry GraphQL server
+## Run the Strawberry GraphQL server
 ```
 strawberry server schema
 ```
