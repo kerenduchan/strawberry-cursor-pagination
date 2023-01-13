@@ -1,4 +1,4 @@
-# strawberry-pagination
+# strawberry-cursor-pagination
 
 # About
 Use this project as a base for implementing a Strawberry GraphQL server with pagination. 
